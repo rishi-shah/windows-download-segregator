@@ -4,7 +4,7 @@ var Service = require('node-windows').Service;
 var svc = new Service({
   name:'Download Segregator',
   description: 'Segregates downloads into respective folders.',
-  script: 'M:\\Rishi\\Projects\\personal\\utils\\download-segregator\\dist\\index.js',
+  script: '<path-to-download-segregator>\\dist\\index.js',
   //, workingDirectory: '...'
   //, allowServiceLogon: true
 });
